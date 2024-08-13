@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- قم بإزالة هذه العناصر المكررة -->
+    <!-- <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" /> -->
+    <!-- <Compile Include="obj\Debug\net8.0\TaskManagement.AssemblyInfo.cs" /> -->
+    <!-- <Compile Include="obj\Debug\net8.0\TaskManagement.GlobalUsings.g.cs" /> -->
+    <!-- <Compile Include="obj\Debug\net8.0\TaskManagement.MvcApplicationPartsAssemblyInfo.cs" /> -->
+    <!-- <Compile Include="obj\Debug\net8.0\TaskManagement.RazorAssemblyInfo.cs" /> -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net8.0\TaskManagement.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\TaskManagement.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net8.0\apphost.exe" />
+    <None Include="obj\Debug\net8.0\project.razor.vs.bin" />
+    <None Include="obj\Debug\net8.0\refint\TaskManagement.dll" />
+    <None Include="obj\Debug\net8.0\ref\TaskManagement.dll" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.build.TaskManagement.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TaskManagement.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TaskManagement.props" />
+    <None Include="obj\Debug\net8.0\TaskMana.75ABC965.Up2Date" />
+    <None Include="obj\Debug\net8.0\TaskManagement.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\TaskManagement.assets.cache" />
+    <None Include="obj\Debug\net8.0\TaskManagement.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\TaskManagement.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net8.0\TaskManagement.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\TaskManagement.dll" />
+    <None Include="obj\Debug\net8.0\TaskManagement.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\TaskManagement.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0\TaskManagement.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net8.0\TaskManagement.pdb" />
+    <None Include="obj\Debug\net8.0\TaskManagement.RazorAssemblyInfo.cache" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\TaskManagement.csproj.nuget.g.props" />
+    <None Include="obj\TaskManagement.csproj.nuget.g.targets" />
+    <None Include="Views\Tasks\Create.cshtml" />
+    <None Include="Views\Tasks\Delete.cshtml" />
+    <None Include="Views\Tasks\Details.cshtml" />
+    <None Include="Views\Tasks\Edit.cshtml" />
+    <None Include="Views\Tasks\Index.cshtml" />
+  </ItemGroup>
+
+</Project>
